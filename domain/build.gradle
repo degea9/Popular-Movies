@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'me.tatarka.retrolambda'
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    // Because we are in domain module, no rxandroid here,pure java only
+    compile 'io.reactivex:rxjava:1.1.6'
+
+    compile 'javax.inject:javax.inject:1'
+    compile 'javax.annotation:jsr250-api:1.0'
+    testCompile 'junit:junit:4.12'
+}

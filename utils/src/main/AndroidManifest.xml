@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="degea9.movie.utils">
+
+    <application
+        android:allowBackup="true"
+        >
+
+    </application>
+
+</manifest>
+
